@@ -1,0 +1,4 @@
+name: Lock_barrel_plugin
+version: '${project.version}'
+main: san.kuroinu.lock_barrel_plugin.Lock_barrel_plugin
+api-version: 1.17
