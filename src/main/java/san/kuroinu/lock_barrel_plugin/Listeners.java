@@ -92,6 +92,7 @@ public class Listeners implements Listener {
         }
     }
     @EventHandler
+    //樽を破壊する
     public void breakBarrelLock(BlockBreakEvent event) throws SQLException{
         if (event.getBlock().getType().toString().equals("BARREL")){
             int x = event.getBlock().getX();
